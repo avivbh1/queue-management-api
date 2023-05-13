@@ -29,4 +29,4 @@ const getQueue = async (req, res) => {
     res.send(queue);
 }
 
-module.exports = {initializeSocket, getQueue, getHtml}
+module.exports = {initializeSocket, getQueue}
